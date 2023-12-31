@@ -41,7 +41,7 @@ class QueueWaitingList<T>{
         arr[tail - 1] = null;
         tail--;
 
-        System.out.println("Removing passenger: " + temp);
+        System.out.println("Remove to passenger: " + temp);
         return temp;
     }
     public void peek(){
@@ -60,5 +60,5 @@ class QueueWaitingList<T>{
         }
         System.out.println("Passenger not found in the waiting list.");
         return false;
-    }
+    } 
 }
